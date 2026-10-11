@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For My Girl 💗</title>
+<style>
+body {
+  background: #fff0f6;
+  color: #d63384;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 35px 15px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  max-width: 450px;
+  margin: 40px auto;
+  box-shadow: 0 5px 20px #ffc1da;
+}
+button {
+  background: #ff69a4;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  padding: 15px 22px;
+  font-size: 17px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Hey, pretty girl 💗</h1>
+  <p>I made something just for you!</p>
+  <p>You're my favourite person 🌷</p>
+  <button onclick="showLove()">Tap for a surprise 🎁</button>
+  <h2 id="message"></h2>
+</div>
+<script>
+function showLove() {
+  document.getElementById("message").innerHTML =
+    "I love youuu! 💖🥹💕";
+  document.body.style.background = "#ffd6e7";
+}
+</script>
+</body>
+</html>
